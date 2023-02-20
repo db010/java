@@ -10,6 +10,6 @@ public class Zadanie2 {
         } else {
             System.out.println("Dziękujemy za zakupy");
         }
-        }
+    }
 }
 
