@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class StudentCheck {
     public static void main(String[] args) {
         Student user1 = new Student();
@@ -31,6 +33,11 @@ public class StudentCheck {
             studenci[i].zalogujSie();
             studenci[i].podajAdresEmail();
         }
+
+        String imie = "Kasia";
+        imie.strip();
+        Scanner scanner = new Scanner(System.in);
+
 
     }
 }
