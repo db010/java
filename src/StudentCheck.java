@@ -2,12 +2,17 @@ import java.util.Scanner;
 
 public class StudentCheck {
     public static void main(String[] args) {
+
+        String uczelnia = Student.nazwaUczelni;
+        Student.infoUczelnia();
+
         Student user1 = new Student();
         user1.imie = "Damian";
         user1.nazwisko = "Barcik";
         user1.nick = "Dymek";
         user1.email = "barcikdamian@gmail.com";
         user1.numerIndeksu = 11111;
+        String uczelniaUser1 = user1.nazwaUczelni;
 
         Student user2 = new Student();
         user2.imie = "Marta";

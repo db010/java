@@ -5,6 +5,7 @@ public class Student {
     public String nick;
     public String email;
     public int numerIndeksu;
+    public static String nazwaUczelni = "AGH";
 
     public void przedstawSie() {
         System.out.println("Nazywam sie " + imie + " " + nazwisko);
@@ -20,6 +21,15 @@ public class Student {
 
     public void podajAdresEmail(){
         System.out.println("Moj adres email to: " + email);
+    }
+
+    public static void infoUczelnia(){
+        System.out.println("Moja uczelnia to " + nazwaUczelni);
+    }
+
+    public static void druga(){
+        System.out.println("Jestem druga metoda");
+        infoUczelnia(); // można wywoływać tylko metody statyczne - np. zalogujSie() nie zadziała bo nie jest static.
     }
 
 }
