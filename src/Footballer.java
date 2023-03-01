@@ -6,7 +6,7 @@ public class Footballer extends Person{
         this.footballClub = footballClub;
     }
 
-    public void eat(){
+    public final void eat(){
         System.out.println("I like healthy food!");
     }
     public void playFootball(){
