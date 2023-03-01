@@ -5,7 +5,9 @@ public class MathTeacher extends Person {
         super(name, age);
         this.school = school;
     }
-
+    public void walk(){
+        System.out.println("I walk very fast");
+    }
     public void teachMath(){
         eat();
         walk();
